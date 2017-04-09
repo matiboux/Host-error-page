@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="author" content="Matiboux" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<link rel="stylesheet" type="text/css" href="https://cdn.matiboux.com/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.matiboux.com/css/font-awesome.min.css" />
+<style>
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+body { font-family: 'Roboto', sans-serif; background: #fff; margin: 0 }
+#main { margin: 50px 0; text-align: center }
+#main .container { max-width: 750px }
+#main h1 { font-size: 36px }
+#main p { color: #777; font-size: 14px }
+#main h1 + hr, #main p + hr { margin: 20px 0 40px }
+#main .item { position: relative }
+#main .item:not(:first-child):before {
+	/** From .fa class (FontAwesome) */
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	
+	/** From .fa-fw class (FontAwesome) */
+    width: 1.28571429em;
+    text-align: center;
+    content: "\f061";
+	
+	/** Custom */
+    position: absolute;
+    top: 24px;
+    left: 0;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+#main .item > .fa { font-size: 48px }
+#main .item > h3 { font-size: 24px }
+#main .item.item-success > h3 { color: #3c763d }
+#main .item.item-danger > h3 { color: #a94442 }
+#main .item > p { font-size: 12px; font-weight: 700; }
+</style>
+
+<title>Host error</title>
+
+</head>
+<body>
+
+<div id="main">
+	<div class="container">
+		
+		<h1>Custom <span class="text-primary">Service Name</span></h1>
+		<p class="text-muted">Your website is not yet online</p> <hr />
+		
+		<div class="items">
+			<div class="item item-success col-xs-4">
+				<i class="fa fa-desktop fa-fw"></i>
+				<h3>You <i class="fa fa-check fa-fw"></i></h3>
+				<p>Web browser</p>
+			</div>
+			<div class="item item-success col-xs-4">
+				<i class="fa fa-tasks fa-fw"></i>
+				<h3>Host <i class="fa fa-check fa-fw"></i></h3>
+				<p>Custom Service Name</p>
+			</div>
+			<div class="item item-danger col-xs-4">
+				<i class="fa fa-globe fa-fw"></i>
+				<h3>Website <i class="fa fa-times fa-fw"></i></h3>
+				<p>example.com</p>
+			</div>
+		</div> <div class="clearfix"></div> <hr />
+		
+		<p class="help-block">If you have any question, please <a href="#">send us an email</a></p>
+		
+	</div>
+</div>
+
+<script type="text/javascript" src="https://cdn.matiboux.com/js/bootstrap.min.js" ></script>
+
+</body>
+</html>
