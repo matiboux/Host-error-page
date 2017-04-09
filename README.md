@@ -1,4 +1,4 @@
-# Host Error Page
+# Host Error page (v1.0)
 
 The **Host Error Page** is an open source error page for host services.  
 The page uses these librairies:
@@ -16,15 +16,13 @@ Copyright (C) 2017 Matiboux (Mathieu Guérin)
 
 ### About
 
-**Creator & Developer**: Matiboux (Mathieu Guérin)  
-*Contact Infos*:
+**Creator & Developer**: Matiboux (Mathieu Guérin)
  - **Email**: [matiboux@gmail.com](mailto:matiboux@gmail.com)
  - **Github**: [@matiboux](https://github.com/Matiboux)
  - **Twitter**: [@Matiboux](https://twitter.com/Matiboux)
  - **Telegram**: [@Matiboux](https://t.me/Matiboux)
 
-**Requester**: Hexicans  
-*Contact Infos*:
+**Requester**: Hexicans
  - **Github**: [@hexicans](https://github.com/hexicans)
  - **Twitter**: [@hexicans](https://twitter.com/hexicans)
 
